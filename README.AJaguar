@@ -1,0 +1,17 @@
+Atari Jaguar support for TinyGL, 2015 Jean-Paul Mari
+
+This support is for experimental purposes, the performances are not good.
+No efforts have been done to support the console capabilities yet.
+At the moment, only the cpu (M68000) is used.
+
+The library build creation follows the original config.mk and Makefile.
+config.mk file has been updated to handle the platform.
+The dithering to 8 bits and convertion (24/32 bits) are off.
+
+It requires additional work to make the examples run on the console.
+Such work implies use of core, maths and low-level runtime libraries.
+
+The gears, spin and texobj exemples have been successfuly tested.
+The merch exemple doesn't run yet probably due to insuficient memory.
+
+Improvements and fixes are welcome: <djipi.mari@gmail.com>

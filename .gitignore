@@ -1,0 +1,5 @@
+AJaguar/
+src/Archives/
+VS2015/
+*.a
+*.o
